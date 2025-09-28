@@ -6,10 +6,10 @@ export const Footer: React.FC = () => {
     {
       title: 'Platform',
       links: [
-        { label: 'AI Agents', href: '#features' },
-        { label: 'Architecture', href: '#architecture' },
-        { label: 'Live Demo', href: '#demo' },
-        { label: 'Pricing', href: '#pricing' },
+        { label: 'AI Agents', href: 'https://t.me/FinrizzBot?start', external: true },
+        { label: 'Architecture', href: 'https://t.me/FinrizzBot?start', external: true },
+        { label: 'Live Demo', href: 'https://t.me/FinrizzBot?start', external: true },
+        { label: 'Pricing', href: 'https://t.me/FinrizzBot?start', external: true },
       ],
     },
     {

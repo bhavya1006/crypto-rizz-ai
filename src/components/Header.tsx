@@ -48,7 +48,7 @@ export const Header: React.FC = () => {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center space-x-4">
             <MetaMaskConnect variant="glass" />
-            <Button variant="hero" size="lg">
+            <Button variant="hero" size="lg" onClick={() => window.open('https://t.me/FinrizzBot?start', '_blank')}>
               Start Analysis
             </Button>
           </div>
@@ -81,7 +81,7 @@ export const Header: React.FC = () => {
               ))}
               <div className="pt-4 space-y-3">
                 <MetaMaskConnect variant="glass" />
-                <Button variant="hero" size="lg" className="w-full">
+                <Button variant="hero" size="lg" className="w-full" onClick={() => window.open('https://t.me/FinrizzBot?start', '_blank')}>
                   Start Analysis
                 </Button>
               </div>

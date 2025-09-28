@@ -58,11 +58,11 @@ export const Hero: React.FC = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="xl" className="group">
+              <Button variant="hero" size="xl" className="group" onClick={() => window.open('https://t.me/FinrizzBot?start', '_blank')}>
                 <TrendingUp className="w-5 h-5 group-hover:rotate-12 transition-transform" />
                 Start Analysis
               </Button>
-              <Button variant="outline" size="xl" className="group">
+              <Button variant="outline" size="xl" className="group" onClick={() => window.open('https://t.me/FinrizzBot?start', '_blank')}>
                 <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 View Demo
               </Button>

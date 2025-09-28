@@ -53,7 +53,7 @@ export const Demo: React.FC = () => {
 
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="xl" className="group">
+              <Button variant="hero" size="xl" className="group" onClick={() => window.open('https://t.me/FinrizzBot?start', '_blank')}>
                 <MessageSquare className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 Try Free Analysis
               </Button>
